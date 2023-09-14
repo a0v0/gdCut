@@ -1,0 +1,12 @@
+version: 3
+
+tasks:
+  install:
+    desc: Install dependencies
+    cmds:
+      - pnpm install
+
+  start:
+    desc: Run Application
+    cmds:
+      - pnpm start
