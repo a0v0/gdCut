@@ -17,17 +17,17 @@
     <meta name="twitter:title" content="GDCut ● Generate direct download links for Google Drive">
     <meta name="twitter:description"
         content="GDCut is a free online utility program that lets you generate direct download links for you Google Drive Files. Direct link generation for large files is also supported.">
-    <meta name="twitter:image" content="https://gdcut.me/img/gdcutshare.jpg">
+    <meta name="twitter:image" content="https://gd-cut.vercel.app/img/gdcutshare.jpg">
 
     <!-- Open Graph data -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="GDCut ● Generate direct download links for Google Drive">
-    <meta property="og:url" content="https://gdcut.me/">
-    <meta property="og:image" content="https://gdcut.me/img/gdcutshare.jpg">
+    <meta property="og:url" content="https://gd-cut.vercel.app/">
+    <meta property="og:image" content="https://gd-cut.vercel.app/img/gdcutshare.jpg">
     <meta property="og:description"
         content="GDCut is a free online utility program that lets you generate direct download links for you Google Drive Files. Direct link generation for large files is also supported.">
 
-    <link rel="icon" href="https://gdcut.me/img/favicon.ico">
+    <link rel="icon" href="https://gd-cut.vercel.app/img/favicon.ico">
 
     <meta name="theme-color" content="#007bff">
     <style>
@@ -378,15 +378,13 @@
 
 
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/moment.min.js"></script>
+   
 
-    <script src="js/main.js"></script>
+   
 
 
     <footer>
-        <p>Copyright © <span id="copyright">2021</span> GDCut</p>
+        <p>Copyright © GDCut</p>
     </footer>
 
     <script>
@@ -399,17 +397,20 @@
 
 
     <script>
-        function ddS() {
-            var gdlink = document.getElementById("gdlink1").value;
-            var lcasegdlink = gdlink.toLowerCase();
+       function getIdFromUrl(url) { return url.match(/[-\w]{25,}/); }
 
-            if (lcasegdlink.includes("drive.google.com") && lcasegdlink.includes("file")) {
-                var str = gdlink.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?export=download&id=");
-                var str1 = str.replace("/view?usp=sharing", "");
-                window.location.href = str1
+
+        function ddS() {
+            
+            const gdlink = document.getElementById("gdlink1").value;
+
+
+            if (gdlink.includes("drive.google.com") ) {
+                const fileid = getIdFromUrl(gdlink);
+                open("https://drive.google.com/uc?export=download&id=" + fileid);
                 // window.open(str1);
             } else {
-                alert("Please enter a valid Google Drive Link")
+                alert("Please enter a valid Google Drive File Link")
             }
         }
     </script>

@@ -8,6 +8,6 @@ app.get('/', async(req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(8080, () => {
-    console.log("Server successfully running on port 8080");
+app.listen(3000, () => {
+    console.log("Server started successfully at port 3000. Open http://localhost:3000 to view it in the browser");
   });
