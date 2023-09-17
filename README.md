@@ -16,17 +16,14 @@ This repository is home to an incredible open-source project that aims to [brief
 
 🌐 Here are the key technologies and tools we've used in this project:
 
+[![tech](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+
 - **Frontend**:
-  - [Tech 1](https://tech1link.com)
-  - [Tech 2](https://tech2link.com)
-- **Backend**:
-  - [Tech 3](https://tech3link.com)
-  - [Tech 4](https://tech4link.com)
-- **Database**:
-  - [Tech 5](https://tech5link.com)
+  - [HTML](https://en.wikipedia.org/wiki/HTML)
+  - [CSS](https://en.wikipedia.org/wiki/CSS)
+  - [Javascript](https://en.wikipedia.org/wiki/javascript)
 - **Deployment**:
-  - [Tech 6](https://tech6link.com)
-  - [Tech 7](https://tech7link.com)
+  - [Vercel](https://vercel.com/)
 
 ## Features 🌈
 
