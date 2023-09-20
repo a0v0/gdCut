@@ -1,8 +1,11 @@
-# gdCut
+# ✂️ gdCut
 
-Welcome to our fantastic open-source repository! We're thrilled to have you here. 😃
+gdCut is a 100% free online utility program that lets you generate direct download links for you Google Drive Files
 
 🔗 [Open Website](https://gd-cut.vercel.app/)
+
+[![GitHub Stars](https://img.shields.io/github/stars/a0v0/gdCut.svg?style=social)](https://github.com/a0v0/gdCut/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/a0v0/gdCut.svg?style=social)](https://github.com/a0v0/gdCut/network/members)
 
 ## 🛠️ Technologies Used
 
@@ -24,19 +27,40 @@ Welcome to our fantastic open-source repository! We're thrilled to have you here
 - ✅ Directly download google drive files
 - ✅ Download large files via your own Google Drive API Key
 
-## Screenshots 📸
+## 📸 Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 1](screenshots/s1.jpeg)
+![Screenshot 2](screenshots/s2.jpeg)
 
 ## 🚗 Getting Started
 
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/download/) installed on your machine
+- [Taskfile](https://taskfile.dev/#/) installed on your machine
+- [pnpm](https://pnpm.io/installation) installed on your machine
+
+### Running via source code
+
 To get started with this project, follow these simple steps:
 
-1. 📥 Clone the repository: `git clone https://github.com/yourusername/project-name.git`
-2. 🏗️ Install dependencies: `npm install` or `yarn install`
-3. 🔥 Start the application: `npm start` or `yarn start`
+1. 📥 Clone the repository:
+
+   `git clone https://github.com/a0v0/gdCut.git`
+
+2. 🏗️ Install dependencies:
+
+   `task install`
+
+3. 🔥 Start the application:
+
+   `task start`
+
+### Running via docker
+
+1. 🔥 Run below command to run gdCut via docker:
+
+   `docker run -p 3000:3000 a0v0/gdcut`
 
 That's it! You're ready to roll! 🙌
 
@@ -67,6 +91,3 @@ We'd like to express our heartfelt gratitude to all the contributors, supporters
 ---
 
 Thank you for checking out our project! We hope you find it as exciting as we do. Happy coding! 😄👨‍💻👩‍💻
-
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/project-name.svg?style=social)](https://github.com/yourusername/project-name/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/project-name.svg?style=social)](https://github.com/yourusername/project-name/network/members)
