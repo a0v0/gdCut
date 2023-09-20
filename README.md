@@ -1,11 +1,8 @@
-# ✂️ gdCut
+# ✂️ GDCut [![GitHub Stars](https://img.shields.io/github/stars/a0v0/GDCut.svg?style=social)](https://github.com/a0v0/GDCut/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/a0v0/GDCut.svg?style=social)](https://github.com/a0v0/GDCut/network/members)
 
-gdCut is a 100% free online utility program that lets you generate direct download links for you Google Drive Files
+GDCut is a 100% free online utility program that lets you generate direct download links for you Google Drive Files
 
-🔗 [Open Website](https://gd-cut.vercel.app/)
-
-[![GitHub Stars](https://img.shields.io/github/stars/a0v0/gdCut.svg?style=social)](https://github.com/a0v0/gdCut/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/a0v0/gdCut.svg?style=social)](https://github.com/a0v0/gdCut/network/members)
+🔗 [Open live Demo](https://gd-cut.vercel.app/)
 
 ## 🛠️ Technologies Used
 
@@ -46,7 +43,7 @@ To get started with this project, follow these simple steps:
 
 1. 📥 Clone the repository:
 
-   `git clone https://github.com/a0v0/gdCut.git`
+   `git clone https://github.com/a0v0/GDCut.git`
 
 2. 🏗️ Install dependencies:
 
@@ -58,9 +55,9 @@ To get started with this project, follow these simple steps:
 
 ### Running via docker
 
-1. 🔥 Run below command to run gdCut via docker:
+1. 🔥 Run below command to run GDCut via docker:
 
-   `docker run -p 3000:3000 a0v0/gdcut`
+   `docker run -p 3000:3000 a0v0/GDCut`
 
 That's it! You're ready to roll! 🙌
 
