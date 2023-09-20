@@ -10,4 +10,4 @@ WORKDIR /home/static
 COPY . .
 
 # Run BusyBox httpd
-CMD ["echo server started successfuly... &&","busybox", "httpd", "-f", "-v", "-p", "3000"]
+CMD ["busybox", "httpd", "-f", "-v", "-p", "3000"]
