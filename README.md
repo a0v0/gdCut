@@ -1,18 +1,10 @@
-# 🚀 Awesome Open-Source Project 🚀
+# gdCut
 
 Welcome to our fantastic open-source repository! We're thrilled to have you here. 😃
 
-## GDCut 🌟
+🔗 [Open Website](https://gd-cut.vercel.app/)
 
-📚 **Project Documentation** 📚
-
-🔗 [Project Website](https://www.projectwebsite.com)
-
-## About 📖
-
-This repository is home to an incredible open-source project that aims to [briefly describe the project's main goal and purpose]. We're passionate about making the world a better place, one line of code at a time!
-
-## Technologies Used 🛠️
+## 🛠️ Technologies Used
 
 🌐 Here are the key technologies and tools we've used in this project:
 
@@ -25,13 +17,12 @@ This repository is home to an incredible open-source project that aims to [brief
 - **Deployment**:
   - [Vercel](https://vercel.com/)
 
-## Features 🌈
+## 🌈 Features
 
 ✨ Here are some of the awesome features of our project:
 
-- ✅ Feature 1: [Describe Feature 1]
-- ✅ Feature 2: [Describe Feature 2]
-- ✅ Feature 3: [Describe Feature 3]
+- ✅ Directly download google drive files
+- ✅ Download large files via your own Google Drive API Key
 
 ## Screenshots 📸
 
@@ -39,7 +30,7 @@ This repository is home to an incredible open-source project that aims to [brief
 ![Screenshot 2](screenshots/screenshot2.png)
 ![Screenshot 3](screenshots/screenshot3.png)
 
-## Getting Started 🚗
+## 🚗 Getting Started
 
 To get started with this project, follow these simple steps:
 
@@ -49,7 +40,7 @@ To get started with this project, follow these simple steps:
 
 That's it! You're ready to roll! 🙌
 
-## How to Contribute 🤝
+## 🤝 How to Contribute
 
 We welcome contributions from developers of all skill levels. Whether you're fixing a bug, adding a feature, or improving documentation, your help is greatly appreciated! To contribute, follow these steps:
 
@@ -61,15 +52,15 @@ We welcome contributions from developers of all skill levels. Whether you're fix
 
 Our team will review your contribution, and together we can make this project even more amazing!
 
-## Code of Conduct 🤝
+## 🤝 Code of Conduct
 
 Please note that this project has a Code of Conduct. We expect all contributors to follow it to ensure a respectful and inclusive environment for everyone. Read our [Code of Conduct](CODE_OF_CONDUCT.md) to learn more.
 
-## License 📜
+## 📜 License
 
-This project is licensed under the [License Name](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments 👏
+## 👏 Acknowledgments
 
 We'd like to express our heartfelt gratitude to all the contributors, supporters, and users of this project. Your support keeps us motivated!
 
