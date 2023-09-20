@@ -57,7 +57,7 @@ To get started with this project, follow these simple steps:
 
 1. 🔥 Run below command to run GDCut via docker:
 
-   `docker run -p 3000:3000 a0v0/GDCut`
+   `docker run -it --rm --init -p 3000:3000 a0v0/gdcut:latest`
 
 That's it! You're ready to roll! 🙌
 
@@ -84,6 +84,10 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 ## 👏 Acknowledgments
 
 We'd like to express our heartfelt gratitude to all the contributors, supporters, and users of this project. Your support keeps us motivated!
+
+Thanks to these awesome resources:
+
+- https://lipanski.com/posts/smallest-docker-image-static-website
 
 ---
 

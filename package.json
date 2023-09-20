@@ -1,9 +1,13 @@
 {
+	"name": "gdcut",
+	"version": "1.0.0",
+	"description": "GDCut is a 100% free online utility program that lets you generate direct download links for you Google Drive Files",
+	"author": "aV <62926341+a0v0@users.noreply.github.com>",
+	"main": "server.js",
 	"scripts": {
-		
-		"start": "node server.js"
-	  },
+	  "start": "node server.js"
+	},
 	"dependencies": {
-		"express": "^4.18.2"
+	  "express": "^4.18.2"
 	}
-}
+  }
